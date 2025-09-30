@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&display=swap') 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;}
+    
+
+
+
+
+header .logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+header .titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   background: linear-gradient(to right, #050772, #4f0679, rgb(255, 0, 242));
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
+font-family: 'Playfair Display', serif; 
+   font-size: 2.5rem; 
+  line-height: 1.2; 
+  letter-spacing: 1px; 
+  margin-bottom: 24px; 
+}   
+  
+  
+
+
+.sobre h2 {
+   color: rgb(51, 5, 88);
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  body {
+    background-color: #f0f0f0;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  h1 {
+    font-size: 32px;
+    color: #ff0080;
+    text-align: center;
+  }
+
+  .container {
+    padding: 20px;
+    flex-direction: column;
+  }
+}
+
+body {
+
+    background: linear-gradient(to right, #66119e, #7f3fd3, rgb(255, 0, 242));
+    line-height: 1.6;
+
+
+}
+p{
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-size: 1.125rem;
+     color: #050772;
+    
+}
+
+.sobre {
+    background-color: rgb(245, 196, 255);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin: auto;
+   border:14px solid #a51d88;
+    margin-bottom: 20px;
+    border-radius:20px;
+    box-shadow: 10px 10px 10px rgb(82, 12, 82);
+
+}
+
+.diferencia {
+    background-color: rgb(245, 196, 255);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin: auto;
+   border:14px solid #a51d88;
+    margin-bottom: 20px;
+    border-radius:20px;
+    box-shadow: 10px 10px 10px rgb(82, 12, 82);
+}
+ .diferencia h2{
+    color: rgb(51, 5, 88);
+ }
+ul li {
+    color: #050772;
+}
+
+.oportunidades {
+    background-color: rgb(245, 196, 255);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin: auto;
+   border:14px solid #a51d88;
+    margin-bottom: 20px;
+    border-radius:20px;
+    box-shadow: 10px 10px 10px rgb(82, 12, 82);
+}
+.oportunidades h2{
+   color:  rgb(51, 5, 88); 
+}
+
+.form{
+    padding: 10%;
+}
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+
+  .sobre,
+  .diferencia,
+  .oportunidades {
+    width: 95%;
+    padding: 8px;
+    box-shadow: 5px 5px 8px rgba(82, 12, 82, 0.5);
+  }
+
+  p {
+    font-size: 1rem;
+  }
+} 
+
+
+button[type="submit"] {
+  background-color: #6d1045;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #ca63bb;
+}
